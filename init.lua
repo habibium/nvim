@@ -33,3 +33,5 @@ vim.keymap.set('v', '˚', ":m '<-2<CR>gv=gv")
 -- Insert mode mappings
 vim.keymap.set('i', '∆', '<Esc>:m .+1<CR>==gi')
 vim.keymap.set('i', '˚', '<Esc>:m .-2<CR>==gi')
+
+require("config.lazy")
